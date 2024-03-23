@@ -27,9 +27,9 @@ def Main():
             start = timeit.default_timer()
             Call_sorting(i, teste_run_lista)
             time[i] += timeit.default_timer() - start
-    print("Mean for Bubble sort: " + str(time[0]/Num_tests))
-    print("Mean for Insert sort: " + str(time[1]/Num_tests))
-    print("Mean for Select sort: " + str(time[2]/Num_tests))
-    print("Mean for Merge sort: " + str(time[3]/Num_tests))
+    print("Mean time for Bubble sort: " + str(time[0]/Num_tests))
+    print("Mean time for Insert sort: " + str(time[1]/Num_tests))
+    print("Mean time for Select sort: " + str(time[2]/Num_tests))
+    print("Mean time for Merge sort: " + str(time[3]/Num_tests))
 
 Main()
